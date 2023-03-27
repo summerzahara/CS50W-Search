@@ -1,0 +1,151 @@
+body {
+    box-sizing: border-box;
+    margin: 5;
+    background-color:   #252221;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*Nav Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: .5%;
+    margin: 0;
+}
+
+.left-nav {
+    display: flex;
+    margin: 0;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Main Search */
+.title {
+    font-size: 10vmax;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2vmax;
+    text-align: center;
+    color:  #FFC300 ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+#search {
+    background-color:   #252221;
+    border: 1px solid grey;
+    border-radius: 25px;
+    width: 65vw;
+    padding: 15px;
+    color: white;
+    outline: none;
+}
+
+#search:focus {
+    background-color:  #716d6c;
+    border: 1px solid #716d6c;
+    opacity: 70%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#g-search, #lucky {
+    margin: 1em;
+    padding: .7em;
+    background-color: #716d6c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#g-search:hover, #lucky:hover {
+    border: .5px solid white;
+}
+
+/* Advanced Search*/
+
+.advform {
+    display: flex;
+    align-items: start;
+    margin: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding-bottom: 1em;
+}
+
+.allwordslabel {
+    padding-right: 5.5em;
+}
+
+.exactlabel {
+    padding-right: 1em;
+}
+
+.anywordlabel {
+    padding-right: 3.8em;
+}
+
+.nonelabel {
+    padding-right: 3.2em;
+}
+
+
+.advinput {
+    background-color: #252221;
+    border: 1px solid #716d6c;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 500px;
+}
+
+.advtitle {
+    font-size: x-large;
+}
+
+.adv-btn {
+    background-color:  #27a2df;
+    color: #252221;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 42.5em;
+}
+
+

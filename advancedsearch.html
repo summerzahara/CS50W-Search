@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Nav Bar-->
+    <div class="navbar">
+        <div class="left-nav">
+            <ul>About</ul>
+            <ul>Store</ul>
+        </div>
+        <div class="right-nav">
+            <ul><a href="imagesearch.html" class="link">Images</a></ul>
+            <ul><a href="index.html" class="link">Google Search</a></ul>
+        </div>
+    </div>
+
+    <!--Advanced Search-->
+    <div class="main">
+        <div class="title">
+            Google
+        </div>
+        <div class="subtitle">
+            Advanced Search
+        </div>
+        
+        <form action="https://www.google.com/search" class="advform">
+            <div class="searchq advtitle item">
+                Find Pages with...
+            </div>
+           
+            <div class="container">
+                <div class="item">
+                    <label for="allwords" class="allwordslabel">all these words: </label>
+                    <input type="text" id="allwords" class="advinput" name="as_q"> 
+                </div>
+                    
+                <div class="item">
+                    <label for="exactword" class="exactlabel">this exact word or phrase: </label>
+                    <input type="text" id="exactword" class="advinput" name="as_epq">
+                </div>
+                    
+                <div class="item">
+                    <label for="anyword" class="anywordlabel">any of these words: </label>
+                    <input type="text" id="anyword" class="advinput" name="as_oq">
+                </div>
+
+                <div class="item">
+                    <label for="noneword" class="nonelabel">none of these words: </label>
+                    <input type="text" id="noneword" class="advinput" name="as_eq">
+                </div>
+                <input type="submit" value="Advanced Search" id="adv-search" class="adv-btn">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
